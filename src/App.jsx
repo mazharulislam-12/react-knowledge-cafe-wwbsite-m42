@@ -1,12 +1,17 @@
 
 import './App.css'
+import Blogs from './components/Blogs/Blogs'
+import Header from './components/Header'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
+
       <h2>knowledge cafe </h2>
+      <Header></Header>
+      <Blogs></Blogs>
+
     </>
   )
 }
